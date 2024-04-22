@@ -24,5 +24,7 @@ EntityManagerFactory entityManagerFactory=Persistence.createEntityManagerFactory
     	entityTransaction.begin();
     	entityManager.remove(aadharCard);
     	entityTransaction.commit();
+
+      System.out.println("deletion complited");
     }
 }
